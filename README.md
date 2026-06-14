@@ -10,6 +10,7 @@ It runs the following quality checks on the data:
 - date check
 - amount check
 - categories check
+
 The output contains a specific numbers on where the data is lacking in the above mentioned checks.
 
 How to run it:
