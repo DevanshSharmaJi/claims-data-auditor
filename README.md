@@ -17,7 +17,7 @@ The output contains a specific numbers on where the data is lacking in the above
 
 If you don't have python already installed, install it:
 
-`pip install python`
+`Download and install Python from https://python.org`
 
 Install pandas:
 
@@ -26,10 +26,6 @@ Install pandas:
 Use the following command in the terminal to execute the code:
 
 `py audit.py claims.csv`
-
-Here we are calling the code file, then the input claims data.
-
-The required file is the claims data.
 
 **Sample output:**
 
