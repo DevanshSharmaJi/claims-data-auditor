@@ -1,10 +1,10 @@
 # claims-data-auditor
-This code help do a quality check on our claims file.
 
 What it does:
 
-This tool checks the quality of our data and provide us a summary on the data.
+This tool runs a quality check of any claims data and provide specific numbers on where the data is lacking.
 It runs the following quality checks on the data:
+
 - missing values
 - duplicates
 - date check
@@ -15,8 +15,20 @@ The output contains a specific numbers on where the data is lacking in the above
 
 How to run it:
 
-We need to install pandas and sys to use this tool.
-We just need to use python or py in the terminal with the code and the input data.
+If you don't have python already installed, install it:
+
+pip install python
+
+Install pandas:
+
+pip install pandas
+
+Use the following command in the terminal to execute the code:
+
+py audit.py claims.csv
+
+Here we are calling the code file, then the input claims data.
+
 The required file is the claims data.
 
 Sample output:
