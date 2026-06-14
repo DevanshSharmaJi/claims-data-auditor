@@ -4,7 +4,7 @@ This code help do a quality check on our claims file.
 What it does:
 
 This tool checks the quality of our data and provide us a summary on the data.
-This tool runs the following quality checks on the data:
+It runs the following quality checks on the data:
 - missing values
 - duplicates
 - date check
